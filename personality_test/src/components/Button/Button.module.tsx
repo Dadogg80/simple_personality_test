@@ -8,14 +8,6 @@ const Button = styled.button`
     color: #db9827;
     margin: 0 1em;
     padding: 0.25em 1em;
-
-
-    ${props =>
-        props.primary &&
-        css`
-          background: palevioletred;
-          color: white;
-    `};
 `;
 
 
@@ -26,7 +18,6 @@ const Container = styled.div`
 render(
     <Container>
       <Button>Normal Button</Button>
-      <Button primary>Primary Button</Button>
     </Container>
 );
 
